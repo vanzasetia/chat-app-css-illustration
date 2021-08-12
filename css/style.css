@@ -464,3 +464,23 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+.illustration__phone {
+  position: relative;
+  border: 0.5rem solid white;
+  border-radius: 2em;
+  background-color: white;
+  width: 15rem;
+}
+
+.illustration__phone::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-radius: 0 0 1em 1em;
+  background-color: white;
+  height: 2rem;
+  width: 50%;
+  transform: translateX(-50%);
+}

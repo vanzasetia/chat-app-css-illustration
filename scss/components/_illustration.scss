@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+.illustration__phone {
+  position: relative;
+  border: rem(8) solid $pure-white;
+  border-radius: 2em;
+  background-color: $pure-white;
+  width: rem(240);
+}
+
+.illustration__phone::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-radius: 0 0 1em 1em;
+  background-color: $pure-white;
+  height: rem(32);
+  width: 50%;
+  transform: translateX(-50%);
+}
