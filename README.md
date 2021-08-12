@@ -43,8 +43,12 @@ This was so hard. So, I used CSS pseudo elements for the top and bottom backgrou
 But for the bottom one I couldn't make it *full width*, like the gradient (the top one), so I just created with the half width. The reason for it because, even after I applied `overflow-x: hidden` on the `body`, It's still causing a horizontal scroll bar appeared.
 
 ### Person
+The `person` part I used flexbox to control the layout. I used `svg` for the chevron left and three dots icons.
 
 ### Chat
+I noticed that the first chat was different. On the mobile it said, *That sounds great. I’d be happy to discuss more.*, while on the desktop it said, *That sounds great. I’d be happy with that.* I decided to follow the desktop version.
+
+For the chat layout, I used flexbox for everything started from chat bubble to input message.
 
 ### Animation
 
