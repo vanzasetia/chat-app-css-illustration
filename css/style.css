@@ -392,6 +392,7 @@ html {
 body {
   position: relative;
   background-color: #fafafa;
+  padding: 1rem;
   min-height: 100vh;
   width: 100%;
   overflow-x: hidden;
@@ -431,7 +432,10 @@ body::after {
   #ENDOF-BODY-BACKGROUND
 \*------------------------------------*/
 main {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
 }
 
 h1 {
