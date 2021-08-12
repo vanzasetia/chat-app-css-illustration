@@ -1,0 +1,57 @@
+@use "../abstracts" as *;
+
+/*------------------------------------*\
+  #PERSON
+\*------------------------------------*/
+
+.person {
+  border-radius: 0 0 0.6em 0.6em;
+  background-image: 
+    linear-gradient(
+      to left,
+      $light-magenta,
+      $light-violet
+    )
+  ;
+  padding: rem(36) rem(10) rem(10);
+}
+
+.person__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.person__child {
+  display: flex;
+  align-items: center;
+}
+
+.person__profile {
+  display: flex;
+  align-items: center;
+}
+
+.person__photo {
+  margin-right: rem(8);
+  border: rem(1) solid $pure-white;
+  border-radius: 50%;
+  height: rem(24);
+  width: rem(24);
+}
+
+.person__name,
+.person__status {
+  line-height: 1.2;
+}
+
+.person__name {
+  color: $pure-white;
+  font-weight: 700;
+  font-size: rem(12);
+}
+
+.person__status {
+  color: $pale-violet;
+  font-size: rem(8);
+}

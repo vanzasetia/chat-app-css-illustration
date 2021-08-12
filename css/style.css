@@ -465,12 +465,16 @@ img {
   max-width: 100%;
 }
 
+/*------------------------------------*\
+  #ILLUSTRATION
+\*------------------------------------*/
 .illustration__phone {
   position: relative;
   border: 0.5rem solid white;
   border-radius: 2em;
   background-color: white;
   width: 15rem;
+  overflow: hidden;
 }
 
 .illustration__phone::after {
@@ -480,7 +484,56 @@ img {
   left: 50%;
   border-radius: 0 0 1em 1em;
   background-color: white;
-  height: 2rem;
-  width: 50%;
+  height: 1.25rem;
+  width: 60%;
   transform: translateX(-50%);
+}
+
+/*------------------------------------*\
+  #PERSON
+\*------------------------------------*/
+.person {
+  border-radius: 0 0 0.6em 0.6em;
+  background-image: linear-gradient(to left, #e942ff, #8838ff);
+  padding: 2.25rem 0.625rem 0.625rem;
+}
+
+.person__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.person__child {
+  display: flex;
+  align-items: center;
+}
+
+.person__profile {
+  display: flex;
+  align-items: center;
+}
+
+.person__photo {
+  margin-right: 0.5rem;
+  border: 0.0625rem solid white;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.person__name,
+.person__status {
+  line-height: 1.2;
+}
+
+.person__name {
+  color: white;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.person__status {
+  color: #d89eff;
+  font-size: 0.5rem;
 }
