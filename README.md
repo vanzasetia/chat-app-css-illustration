@@ -1,4 +1,4 @@
-# Huddle Landing Page With Curved Section
+# Chat App CSS Illustration
 
 <p align="left">
   <img src="https://img.shields.io/badge/Difficulty-Intermediate-yellow?style=for-the-badge&logo=frontendmentor" alt="Difficulty">
