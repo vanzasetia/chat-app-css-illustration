@@ -56,7 +56,7 @@ html {
 body {
   position: relative;
   background-color: rgb(250, 250, 250);
-  padding: rem(16);
+  padding: rem(60) rem(24);
   min-height: 100vh;
   width: 100%;
   overflow-x: hidden;
@@ -90,10 +90,10 @@ body::before {
 /* Styles for bottom right corner background */
 body::after {
   right: 0;
-  bottom: -#{rem(200)};
+  bottom: 0;
   border-radius: $border-radius 0 0 0;
   background-color: $light-grayish-violet;
-  height: rem(400);
+  height: rem(500);
   width: rem(180);
 }
 
