@@ -1,11 +1,16 @@
 @use "../abstracts" as *;
 
+/*------------------------------------*\
+  #ILLUSTRATION
+\*------------------------------------*/
+
 .illustration__phone {
   position: relative;
   border: rem(8) solid $pure-white;
   border-radius: 2em;
   background-color: $pure-white;
   width: rem(240);
+  overflow: hidden;
 }
 
 .illustration__phone::after {
