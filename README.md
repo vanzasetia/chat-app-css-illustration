@@ -35,8 +35,12 @@
 - [Continued Development](#continued-development)
 
 ## The Story When Doing This Challenge
+I will review the `style-guide.md`. It had a clear explanation about what color for what, but the only color that I couldn't find, was the color for body itself. It's not a pure white, so I used my [color picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) and got this color `rgb(250, 250, 250)`.
 
 ### Body Background
+This was so hard. So, I used CSS pseudo elements for the top and bottom background. I used absolute positioning and it worked!
+
+But for the bottom one I couldn't make it *full width*, like the gradient (the top one), so I just created with the half width. The reason for it because, even after I applied `overflow-x: hidden` on the `body`, It's still causing a horizontal scroll bar appeared.
 
 ### Person
 
