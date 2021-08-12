@@ -91,34 +91,88 @@
   <title>Vanza Setia | Chat App Illustration</title>
 </head>
 <body dir="ltr">
-  <h1>Hello World</h1>
-  <!--
-  Samuel Green
-  Available to Walk
-
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  -->
+  <main>
+    <section class="intro">
+      <h1 class="intro__title"> Simple booking</h1>
+      <p class="intro__paragraph">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </section>
+    <div class="illustration" aria-hidden="true">
+      <div class="illustration__phone">
+        <div class="person">
+          <div class="person__wrapper">
+            <img src="./icons/chevron-left.svg" alt="" class="person__chevron-left" width="32" height="32">
+            <figure class="person__profile">
+              <img src="./images/avatar.jpg" alt="" class="person__photo" width="" height="">
+              <figcaption class="person__data">
+                <p class="person__name">Samuel Green</p>
+                <p class="person__status">Available to Walk</p>
+              </figcaption>
+              <img src="./icons/dots-three-vertical.svg" alt="" class="person__menu" width="32" height="32">
+            </figure>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat__container">
+            <div class="chat__bubble chat__bubble--purple">
+              <p class="chat__message">That sounds great. I’d be happy with that.</p>
+            </div>
+            <div class="chat__bubble chat__bubble--purple">
+              <p class="chat__message">Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="chat__right">
+              <ul class="chat__images">
+                <li class="chat__item">
+                  <img src="./images/dog-image-1.jpg" alt="" class="chat__image" width="" height="">
+                </li>
+                <li class="chat__item">
+                  <img src="./images/dog-image-2.jpg" alt="" class="chat__image" width="" height="">
+                </li>
+                <li class="chat__item">
+                  <img src="./images/dog-image-3.jpg" alt="" class="chat__image" width="" height="">
+                </li>
+              </ul>
+              <div class="chat__bubble chat__bubble--white">
+                <p class="chat__message">Here are a few pictures. She’s a happy girl!</p>
+              </div>
+              <div class="chat__bubble chat__bubble--white">
+                <p class="chat__message">Can you make it?</p>
+              </div>
+            </div>
+            <div class="chat__bubble chat__bubble--purple">
+              <p class="chat__message">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            </div>
+            <div class="chat__bubble chat__bubble--gradient">
+              <p class="chat__message">
+                <span>
+                  <img src="./icons/circle-thin.svg" alt="" class="chat__radio-btn" width="" height="">
+                  30 minutes walk
+                </span>
+                <strong class="chat__price">$29</strong>
+              </p>
+            </div>
+            <div class="chat__bubble chat__bubble--gradient">
+              <p class="chat__message">
+                <span>
+                  <img src="./icons/circle-thin.svg" alt="" class="chat__radio-btn" width="" height="">
+                  1 hour walk
+                </span>
+                <strong class="chat__price">$49</strong>
+              </p>
+            </div>
+            <div class="chat__input">
+              <p class="chat__placeholder">Type a message…</p>
+              <div class="chat__send-btn">
+                <img src="./icons/chevron-right.svg" alt="" class="chat__chevron" width="32" height="32">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
