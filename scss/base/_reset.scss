@@ -49,22 +49,68 @@ html {
   font-size: $default-html-font-size;
 }
 
+/*------------------------------------*\
+  #BODY-BACKGROUND
+\*------------------------------------*/
+
 body {
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
   font-family: "Rubik", sans-serif;
   font-size: rem(16);
 }
 
-// h1 - h6
-@for $i from 1 through 6 {
-  h#{$i} {
-    margin: rem(14) 0;
-    line-height: 1.6;
-  }
+/* General Styles for the background */
+body::after,
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+/* Styles for gradient background */
+body::before {
+  top: -#{rem(325)};
+  left: -#{rem(220)};
+  border-radius: 0 0 $border-radius $border-radius;
+  background-image:
+    linear-gradient(
+      to bottom,
+      $light-magenta,
+      $light-violet
+    );
+  height: rem(800);
+  width: rem(400);
+}
+
+/* Styles for bottom right corner background */
+body::after {
+  right: 0;
+  bottom: -#{rem(200)};
+  border-radius: $border-radius 0 0 0;
+  background-color: $light-grayish-violet;
+  height: rem(400);
+  width: rem(180);
+}
+
+
+/*------------------------------------*\
+  #ENDOF-BODY-BACKGROUND
+\*------------------------------------*/
+
+main {
+  display: none;
+}
+
+h1 {
+  margin: 0;
 }
 
 p,
 blockquote {
-  margin: rem(14) 0;
   line-height: 1.6;
 }
 

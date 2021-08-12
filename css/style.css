@@ -386,44 +386,60 @@ html {
   font-size: 100%;
 }
 
+/*------------------------------------*\
+  #BODY-BACKGROUND
+\*------------------------------------*/
 body {
+  position: relative;
+  background-color: #fafafa;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
 }
 
+/* General Styles for the background */
+body::after,
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+/* Styles for gradient background */
+body::before {
+  top: -20.3125rem;
+  left: -13.75rem;
+  border-radius: 0 0 15em 15em;
+  background-image: linear-gradient(to bottom, #e942ff, #8838ff);
+  height: 50rem;
+  width: 25rem;
+}
+
+/* Styles for bottom right corner background */
+body::after {
+  right: 0;
+  bottom: -12.5rem;
+  border-radius: 15em 0 0 0;
+  background-color: #f5f3f7;
+  height: 25rem;
+  width: 11.25rem;
+}
+
+/*------------------------------------*\
+  #ENDOF-BODY-BACKGROUND
+\*------------------------------------*/
+main {
+  display: none;
+}
+
 h1 {
-  margin: 0.875rem 0;
-  line-height: 1.6;
-}
-
-h2 {
-  margin: 0.875rem 0;
-  line-height: 1.6;
-}
-
-h3 {
-  margin: 0.875rem 0;
-  line-height: 1.6;
-}
-
-h4 {
-  margin: 0.875rem 0;
-  line-height: 1.6;
-}
-
-h5 {
-  margin: 0.875rem 0;
-  line-height: 1.6;
-}
-
-h6 {
-  margin: 0.875rem 0;
-  line-height: 1.6;
+  margin: 0;
 }
 
 p,
 blockquote {
-  margin: 0.875rem 0;
   line-height: 1.6;
 }
 
