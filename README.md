@@ -31,16 +31,19 @@
   - [Animation Part](#animation)
 - [What I Learned](#what-i-learned)
 - [Technology that I used](#built-with)
-- [Useful Resources](#useful-resources)
 - [Continued Development](#continued-development)
 
 ## The Story When Doing This Challenge
-I will review the `style-guide.md`. It had a clear explanation about what color for what, but the only color that I couldn't find, was the color for body itself. It's not a pure white, so I used my [color picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) and got this color `rgb(250, 250, 250)`.
+I used my [color picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) and got this color `rgb(250, 250, 250)` for the body background color.
 
 ### Body Background
 This was so hard. So, I used CSS pseudo elements for the top and bottom background. I used absolute positioning and it worked!
 
 But for the bottom one I couldn't make it *full width*, like the gradient (the top one), so I just created with the half width. The reason for it because, even after I applied `overflow-x: hidden` on the `body`, It's still causing a horizontal scroll bar appeared.
+
+When it came to a moment where I need to make it responsive, it's scary. After several times trying to us`clamp()` and `calc()`, which are [CSS Math Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions). I didn't make it using those functions 😞.
+
+Ultimately, I ended up with the *normal* way of doing that by setting up media queries to change the size of the background for "every screen size" 😅.
 
 ### Person
 The `person` part I used flexbox to control the layout. I used `svg` for the chevron left and three dots icons.
@@ -51,6 +54,7 @@ I noticed that the first chat was different. On the mobile it said, *That sounds
 For the chat layout, I used flexbox for everything started from chat bubble to input message.
 
 ### Animation
+For the animations, I will do it maybe on my second try. But, I am not sure that I will do this challenge again. So, don't wait for it.
 
 ## What I Learned
 
@@ -62,9 +66,6 @@ This project is created using **HTML5**, **CSS3**, and **Sass**.
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" width="auto" height="70px">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="" width="auto" height="70px">
 </p>
-
-## Useful Resources
-
 
 ## Continued development
 I will take people feedback and improve this solution.
