@@ -93,6 +93,11 @@ body::before {
     height: rem(860);
     width: rem(500);
   }
+  
+  @include breakpoint-up("small") {
+    height: rem(920);
+    width: rem(590);
+  }
 }
 
 /* Styles for bottom right corner background */
@@ -107,6 +112,11 @@ body::after {
   @include breakpoint-up("tiny") {
     height: rem(560);
     width: rem(280);
+  }
+  
+  @include breakpoint-up("small") {
+    height: rem(650);
+    width: rem(380);
   }
 }
 
