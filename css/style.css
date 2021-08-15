@@ -420,6 +420,12 @@ body::before {
   height: 50rem;
   width: 25rem;
 }
+@media screen and (min-width: 50em) {
+  body::before {
+    height: 53.75rem;
+    width: 31.25rem;
+  }
+}
 
 /* Styles for bottom right corner background */
 body::after {
@@ -429,6 +435,12 @@ body::after {
   background-color: #f5f3f7;
   height: 31.25rem;
   width: 11.25rem;
+}
+@media screen and (min-width: 50em) {
+  body::after {
+    height: 35rem;
+    width: 17.5rem;
+  }
 }
 
 /*------------------------------------*\

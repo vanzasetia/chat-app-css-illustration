@@ -88,6 +88,11 @@ body::before {
     );
   height: rem(800);
   width: rem(400);
+  
+  @include breakpoint-up("tiny") {
+    height: rem(860);
+    width: rem(500);
+  }
 }
 
 /* Styles for bottom right corner background */
@@ -98,6 +103,11 @@ body::after {
   background-color: $light-grayish-violet;
   height: rem(500);
   width: rem(180);
+  
+  @include breakpoint-up("tiny") {
+    height: rem(560);
+    width: rem(280);
+  }
 }
 
 
