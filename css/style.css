@@ -390,7 +390,10 @@ html {
   #BODY-BACKGROUND
 \*------------------------------------*/
 body {
+  display: flex;
   position: relative;
+  align-items: center;
+  justify-content: center;
   background-color: #fafafa;
   padding: 3.75rem 1.5rem;
   min-height: 100vh;
@@ -658,5 +661,6 @@ img {
 }
 
 .intro__description {
+  max-width: 31.25rem;
   color: #a39daa;
 }
