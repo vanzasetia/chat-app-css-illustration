@@ -61,7 +61,7 @@ For the animations, I will do it on my second try.
 * I learned a little bit about `clamp()` and `calc()`.
 
 ## Built With
-This project created using **HTML5**, **CSS3**, and **Sass**. 
+This project created using **HTML5**, **CSS3**, and **Sass**. I used flexbox to handle every layout.
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" width="auto" height="70px">
