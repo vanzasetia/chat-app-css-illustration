@@ -452,6 +452,13 @@ main {
   justify-content: center;
   flex-direction: column-reverse;
 }
+@media screen and (min-width: 61.25em) {
+  main {
+    flex-direction: row-reverse;
+    gap: 7.5rem;
+    max-width: 64rem;
+  }
+}
 
 h1 {
   margin: 0;
@@ -664,12 +671,23 @@ img {
   margin-top: 2.5rem;
   text-align: center;
 }
+@media screen and (min-width: 61.25em) {
+  .intro {
+    flex-basis: 28.125rem;
+    text-align: left;
+  }
+}
 
 .intro__title {
   margin-bottom: 1.5rem;
   color: #3e2753;
   font-size: 2.25rem;
   font-weight: 500;
+}
+@media screen and (min-width: 61.25em) {
+  .intro__title {
+    font-size: 2.5rem;
+  }
 }
 
 .intro__description {

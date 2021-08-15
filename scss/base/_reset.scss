@@ -120,6 +120,12 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
+  
+  @include breakpoint-up("very-small") {
+    flex-direction: row-reverse;
+    gap: rem(120);
+    max-width: rem(1024);
+  }
 }
 
 h1 {
