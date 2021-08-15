@@ -119,7 +119,7 @@ body::after {
   }
   
   @include breakpoint-up("small") {
-    height: rem(650);
+    height: rem(630);
     width: rem(380);
   }
   
