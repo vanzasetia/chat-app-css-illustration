@@ -5,7 +5,7 @@ $white: rgb(242, 242, 242) !default;
 $selection-bg: rgb(136, 56, 255) !default;
 
 // Border Radius
-$border-radius: 15em;
+$border-radius: 100em;
 
 // Primary Colors
 
@@ -30,13 +30,9 @@ $very-light-magenta: hsl(289, 100%, 72%);
 // Breakpoints
 // Note: If you user font-size setting is 16px, then this 'em' is equal to this in 'px'
 $breakpoints-up: (
-  "tiny": 46.875em, // => 750px
-  "very-small": 64em, // => 1024px
-  "small": 80em // => 1280px
+  "tiny": "50em" // 800px
 );
 
 $breakpoints-down: (
-  "tiny": 46.8125em, // => 749px
-  "very-small": 63.9375em, // => 1023px
-  "small": 79.9375em // => 1279px
+  "tiny": "49.9375em" // 799px
 );
