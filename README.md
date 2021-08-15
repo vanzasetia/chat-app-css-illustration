@@ -54,7 +54,7 @@ I noticed that the first chat was different. On the mobile it said, *That sounds
 For the chat layout, I used flexbox for everything started from chat bubble to input message.
 
 ### Animation
-For the animations, I will do it maybe on my second try. But, I am not sure that I will do this challenge again. So, don't wait for it.
+For the animations, I will do it on my second try.
 
 ## What I Learned
 
@@ -68,4 +68,4 @@ This project is created using **HTML5**, **CSS3**, and **Sass**.
 </p>
 
 ## Continued development
-I will take people feedback and improve this solution.
+I will take people feedback and improve this solution. Also, I will try to add animations and try to use `calc()` or `clamp()` for my second try, in the future.
