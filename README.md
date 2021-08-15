@@ -59,7 +59,7 @@ For the animations, I will do it on my second try.
 ## What I Learned
 
 ## Built With
-This project is created using **HTML5**, **CSS3**, and **Sass**. 
+This project created using **HTML5**, **CSS3**, and **Sass**. 
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" width="auto" height="70px">
