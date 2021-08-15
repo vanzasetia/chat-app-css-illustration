@@ -57,6 +57,8 @@ For the chat layout, I used flexbox for everything started from chat bubble to i
 For the animations, I will do it on my second try.
 
 ## What I Learned
+* I learned to create illustration using HTML and CSS.
+* I learned a little bit about `clamp()` and `calc()`.
 
 ## Built With
 This project created using **HTML5**, **CSS3**, and **Sass**. 
