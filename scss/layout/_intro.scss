@@ -6,6 +6,7 @@
   
   @include breakpoint-up("very-small") {
     flex-basis: rem(450);
+    margin: 0;
     text-align: left;
   }
 }

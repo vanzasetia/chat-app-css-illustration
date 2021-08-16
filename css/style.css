@@ -696,6 +696,7 @@ img {
 @media screen and (min-width: 61.25em) {
   .intro {
     flex-basis: 28.125rem;
+    margin: 0;
     text-align: left;
   }
 }
