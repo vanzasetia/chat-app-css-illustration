@@ -124,7 +124,8 @@ body::after {
   }
   
   @include breakpoint-up("medium") {
-    height: rem(768);
+    height: rem(500);
+    width: rem(340);
   }
 }
 

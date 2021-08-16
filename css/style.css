@@ -461,7 +461,8 @@ body::after {
 }
 @media screen and (min-width: 90em) {
   body::after {
-    height: 48rem;
+    height: 31.25rem;
+    width: 21.25rem;
   }
 }
 
