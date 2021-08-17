@@ -17,8 +17,8 @@
 
 ## Feedback and Live Review
 * [🌍 Live Review](https://vanzachatapp.netlify.app/)
-* [👉 Give feedback on Frontend Mentor platform]()
-* [🐦 Give Feedback on Twitter]()
+* [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/chat-app-css-illustration-html-css-sass-85OdKVY48)
+* [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1427479692987174915?s=19)
 
 ## Screenshot
 ![Desktop preview](./screenshots/desktop.jpg)
