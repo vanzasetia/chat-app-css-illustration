@@ -417,25 +417,8 @@ body::before {
   left: -13.75rem;
   border-radius: 0 0 100em 100em;
   background-image: linear-gradient(to bottom, #e942ff, #8838ff);
-  height: 50rem;
-  width: 25rem;
-}
-@media screen and (min-width: 50em) {
-  body::before {
-    height: 53.75rem;
-    width: 31.25rem;
-  }
-}
-@media screen and (min-width: 78.75em) {
-  body::before {
-    height: 57.5rem;
-    width: 36.875rem;
-  }
-}
-@media screen and (min-width: 90em) {
-  body::before {
-    height: 64rem;
-  }
+  height: clamp(50rem, 80vw, 64rem);
+  width: clamp(25rem, 46vw, 36.875rem);
 }
 
 /* Styles for bottom right corner background */
@@ -444,26 +427,8 @@ body::after {
   bottom: 0;
   border-radius: 100em 0 0 0;
   background-color: #f5f3f7;
-  height: 31.25rem;
-  width: 11.25rem;
-}
-@media screen and (min-width: 50em) {
-  body::after {
-    height: 35rem;
-    width: 17.5rem;
-  }
-}
-@media screen and (min-width: 78.75em) {
-  body::after {
-    height: 39.375rem;
-    width: 23.75rem;
-  }
-}
-@media screen and (min-width: 90em) {
-  body::after {
-    height: 35.625rem;
-    width: 21.25rem;
-  }
+  height: clamp(31.25rem, 70vw, 35.625rem);
+  width: clamp(11.25rem, 46vw, 21.25rem);
 }
 
 /*------------------------------------*\

@@ -86,22 +86,8 @@ body::before {
       $light-magenta,
       $light-violet
     );
-  height: rem(800);
-  width: rem(400);
-  
-  @include breakpoint-up("tiny") {
-    height: rem(860);
-    width: rem(500);
-  }
-  
-  @include breakpoint-up("small") {
-    height: rem(920);
-    width: rem(590);
-  }
-  
-  @include breakpoint-up("medium") {
-    height: rem(1024);
-  }
+  height: clamp(#{rem(800)}, 80vw, #{rem(1024)});
+  width: clamp(#{rem(400)}, 46vw, #{rem(590)});
 }
 
 /* Styles for bottom right corner background */
@@ -110,23 +96,8 @@ body::after {
   bottom: 0;
   border-radius: $border-radius 0 0 0;
   background-color: $light-grayish-violet;
-  height: rem(500);
-  width: rem(180);
-  
-  @include breakpoint-up("tiny") {
-    height: rem(560);
-    width: rem(280);
-  }
-  
-  @include breakpoint-up("small") {
-    height: rem(630);
-    width: rem(380);
-  }
-  
-  @include breakpoint-up("medium") {
-    height: rem(570);
-    width: rem(340);
-  }
+  height: clamp(#{rem(500)}, 70vw, #{rem(570)});
+  width: clamp(#{rem(180)}, 46vw, #{rem(340)});
 }
 
 
