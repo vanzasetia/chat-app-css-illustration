@@ -6,14 +6,13 @@
 
 .person {
   border-radius: 0 0 0.6em 0.6em;
-  background-image: 
-    linear-gradient(
-      to left,
-      $light-magenta,
-      $light-violet
-    )
-  ;
+  background-image: linear-gradient(
+  to left,
+  $light-magenta,
+  $light-violet
+  );
   padding: rem(36) rem(10) rem(10);
+  ;
 }
 
 .person__wrapper {
@@ -37,19 +36,18 @@
   margin-right: rem(8);
   border: rem(1) solid $pure-white;
   border-radius: 50%;
-  height: rem(24);
   width: rem(24);
+  height: rem(24);
 }
 
-.person__name,
-.person__status {
+.person__name, .person__status {
   line-height: 1.3;
 }
 
 .person__name {
   color: $pure-white;
-  font-weight: 500;
   font-size: rem(12);
+  font-weight: 500;
 }
 
 .person__status {

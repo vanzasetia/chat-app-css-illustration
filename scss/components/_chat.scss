@@ -28,23 +28,21 @@
 
 .chat__bubble--white {
   border-radius: 1.2em 1.2em 0.6em 1.2em;
-  box-shadow: 
-    0 rem(2) rem(8) rgba($very-dark-desaturated-violet, 0.15)
-  ;
+  box-shadow: 0 rem(2) rem(8) rgba($very-dark-desaturated-violet, 0.15);
   background-color: $pure-white;
   color: $desaturated-dark-violet;
+  ;
 }
 
 .chat__bubble--gradient {
-  background-image: 
-    linear-gradient(
-      to right,
-      $light-magenta,
-      $light-violet
-    )
-  ;
+  background-image: linear-gradient(
+  to right,
+  $light-magenta,
+  $light-violet
+  );
   max-width: 80%;
   color: $pure-white;
+  ;
 }
 
 .chat__bubble--gradient .chat__message {
@@ -60,8 +58,8 @@
 
 .chat__radio-btn {
   margin-right: rem(8);
-  height: rem(14);
   width: rem(14);
+  height: rem(14);
 }
 
 .chat__price {
@@ -86,8 +84,8 @@
 
 .chat__image {
   border-radius: 0.5em;
-  height: rem(40);
   width: rem(40);
+  height: rem(40);
 }
 
 .chat__input {
@@ -109,6 +107,6 @@
   justify-content: center;
   border-radius: 50%;
   background-color: $very-dark-desaturated-violet;
-  height: rem(24);
   width: rem(24);
+  height: rem(24);
 }

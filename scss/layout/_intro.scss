@@ -3,7 +3,7 @@
 .intro {
   margin-top: rem(40);
   text-align: center;
-  
+
   @include breakpoint-up("very-small") {
     flex-basis: rem(450);
     margin: 0;
@@ -16,7 +16,7 @@
   color: $very-dark-desaturated-violet;
   font-size: rem(36);
   font-weight: 500;
-  
+
   @include breakpoint-up("very-small") {
     font-size: rem(40);
   }

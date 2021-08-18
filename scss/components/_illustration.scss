@@ -8,12 +8,11 @@
   position: relative;
   border: rem(10) solid $pure-white;
   border-radius: 2em;
-  box-shadow: 
-    rem(3) rem(20) rem(28) rgba($very-dark-desaturated-violet, 0.2)
-  ;
+  box-shadow: rem(3) rem(20) rem(28) rgba($very-dark-desaturated-violet, 0.2);
   background-color: $light-grayish-violet;
   width: rem(240);
   overflow: hidden;
+  ;
 }
 
 .illustration__phone::after {
@@ -23,7 +22,7 @@
   left: 50%;
   border-radius: 0 0 1em 1em;
   background-color: $pure-white;
-  height: rem(20);
   width: 60%;
+  height: rem(20);
   transform: translateX(-50%);
 }
