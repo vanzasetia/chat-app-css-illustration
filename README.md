@@ -31,7 +31,6 @@
   - [Animation Part](#animation)
 - [What I Learned](#what-i-learned)
 - [Technology that I used](#built-with)
-- [Continued Development](#continued-development)
 
 ## The Story When Doing This Challenge
 I used my [color picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) and got this color `rgb(250, 250, 250)` for the body background color.
@@ -68,6 +67,3 @@ This project created using **HTML5**, **CSS3**, and **Sass**. I used flexbox to 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" width="auto" height="70px">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="" width="auto" height="70px">
 </p>
-
-## Continued development
-I will take people feedback and improve this solution. Also, I will try to add animations and try to use `calc()` or `clamp()` for my second try, in the future.
